@@ -30,6 +30,6 @@ func Abs(x float64) float64 {
 	return math.Abs(x)
 }
 
-func Yn(x, y float64) float64 {
+func Yn(x int, y float64) float64 {
 	return math.Yn(x, y)
 }
